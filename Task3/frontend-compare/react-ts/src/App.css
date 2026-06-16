@@ -1,0 +1,16 @@
+.appHeader {
+  border-bottom: 1px solid #d7dfe8;
+  padding: 24px 0;
+}
+
+.appHeader h1 {
+  color: #1f5f8b;
+  font-size: 32px;
+  margin: 0 0 8px;
+}
+
+.appHeader p {
+  color: #4b5563;
+  line-height: 1.7;
+  margin: 0;
+}

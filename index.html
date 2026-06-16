@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo Task List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <section class="todo-panel" aria-labelledby="app-title">
+        <div class="app-header">
+          <p class="eyebrow">Frontend Practice</p>
+          <h1 id="app-title">Todo Task List</h1>
+          <p class="lead">今日やることを追加して、終わったらチェックしましょう。</p>
+        </div>
+
+        <form class="todo-form" id="todo-form">
+          <label class="sr-only" for="todo-input">新しいタスク</label>
+          <input
+            id="todo-input"
+            type="text"
+            name="todo"
+            placeholder="例: JavaScriptのDOM操作を復習する"
+            autocomplete="off"
+          />
+          <button type="submit">追加</button>
+        </form>
+
+        <div class="toolbar" aria-label="タスクの表示切り替え">
+          <button class="filter-button active" type="button" data-filter="all">すべて</button>
+          <button class="filter-button" type="button" data-filter="active">未完了</button>
+          <button class="filter-button" type="button" data-filter="completed">完了</button>
+        </div>
+
+        <ul class="todo-list" id="todo-list" aria-live="polite"></ul>
+
+        <div class="summary">
+          <span id="task-count">0件のタスク</span>
+          <button class="ghost-button" id="clear-completed" type="button">完了済みを削除</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

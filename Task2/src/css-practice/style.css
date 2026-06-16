@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  background-color: #f4f7fb;
+  color: #202124;
+  font-family: Arial, sans-serif;
+}
+
+.page {
+  width: 640px;
+  margin: 40px auto;
+  padding: 24px;
+  background-color: #ffffff;
+}
+
+h1 {
+  color: #1f5f8b;
+}
+
+.lead-text {
+  color: #4b5563;
+}
+
+.memo-box {
+  margin-top: 24px;
+  padding: 16px;
+  background-color: #eef6f0;
+}

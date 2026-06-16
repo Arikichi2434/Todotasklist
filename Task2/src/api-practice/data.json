@@ -1,0 +1,13 @@
+{
+  "lessons": [
+    {
+      "title": "HTMLは画面の構造を作る"
+    },
+    {
+      "title": "CSSは見た目を整える"
+    },
+    {
+      "title": "JavaScriptは操作に反応して処理を動かす"
+    }
+  ]
+}
